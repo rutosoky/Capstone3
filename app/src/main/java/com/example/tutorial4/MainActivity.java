@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity
     public void nextImg(View view) {
         ImageView imageView = (ImageView)findViewById(R.id.imageView2);
 
-        imageView.setImageResource(R.drawable.mando);
+        imageView.setImageResource(R.drawable.tofu);
     }
 
     @Override

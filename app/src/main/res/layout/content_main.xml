@@ -42,7 +42,6 @@
         android:layout_marginStart="320dp"
         android:layout_marginTop="160dp"
         android:onClick="nextImg"
-        android:src="@drawable/mando"
         android:text="다음" />
 
     <ImageView
@@ -53,6 +52,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="100dp"
         android:layout_marginTop="80dp"
+        android:src="@drawable/bibigo"
         tools:srcCompat="@tools:sample/avatars" />
 
 </RelativeLayout>
