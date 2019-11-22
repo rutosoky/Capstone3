@@ -34,4 +34,25 @@
         android:onClick="moveAdd"
         android:text="추가" />
 
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="160dp"
+        android:onClick="nextImg"
+        android:src="@drawable/mando"
+        android:text="다음" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="80dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
 </RelativeLayout>

@@ -21,6 +21,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -57,6 +58,12 @@ public class MainActivity extends AppCompatActivity
     public void moveAdd(View view) {
         Intent intent = new Intent(this, add.class);
         startActivity(intent);
+    }
+
+    public void nextImg(View view) {
+        ImageView imageView = (ImageView)findViewById(R.id.imageView2);
+
+        imageView.setImageResource(R.drawable.mando);
     }
 
     @Override

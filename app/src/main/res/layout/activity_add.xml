@@ -30,6 +30,18 @@
         android:text="날짜" />
 
     <Button
+        android:id="@+id/button_nowDate"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="195dp"
+        android:layout_marginStart="350dp"
+        android:onClick="nowDate"
+        android:text="현재"
+        />
+
+    <Button
         android:id="@+id/button10"
         android:layout_width="50dp"
         android:layout_height="wrap_content"

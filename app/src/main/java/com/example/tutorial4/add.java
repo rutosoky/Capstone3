@@ -8,6 +8,11 @@ import android.view.View;
 import android.widget.DatePicker;
 import android.widget.TextView;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
+
 
 public class add extends AppCompatActivity {
 
@@ -21,6 +26,7 @@ public class add extends AppCompatActivity {
 
         this.InitializeView();
         this.InitializeListener();
+
     }
 
     public void InitializeView() {
@@ -43,5 +49,16 @@ public class add extends AppCompatActivity {
         DatePickerDialog dialog = new DatePickerDialog(this, callbackMethod, 2019, 5, 24);
 
         dialog.show();
+    }
+
+    public void nowDate(View view) {
+        SimpleDateFormat format1 = new SimpleDateFormat("yyyy년 MM월 dd일");
+
+        Date time = new Date();
+
+        String time1 = format1.format(time);
+
+        textView_Date.setText(time1);
+
     }
 }
