@@ -3,9 +3,6 @@ package com.example.tutorial4;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
 import android.view.View;
 
 import androidx.core.view.GravityCompat;
@@ -51,12 +48,12 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void moveListMain(View view) {
-        Intent intent = new Intent(this, list_main.class);
+        Intent intent = new Intent(this, ListView.class);
         startActivity(intent);
     }
 
-    public void moveAdd(View view) {
-        Intent intent = new Intent(this, add.class);
+    public void moveAddList(View view) {
+        Intent intent = new Intent(this, AddList.class);
         startActivity(intent);
     }
 
