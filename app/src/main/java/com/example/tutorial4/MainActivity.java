@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void moveListMain(View view) {
-        Intent intent = new Intent(this, ListView.class);
+        Intent intent = new Intent(this, Listview.class);
         startActivity(intent);
     }
 

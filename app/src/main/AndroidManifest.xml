@@ -21,7 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListView" />
+        <activity android:name=".Listview" />
         <activity android:name=".ColdList" />
         <activity android:name=".FrozenList" />
         <activity android:name=".RoomList" />
