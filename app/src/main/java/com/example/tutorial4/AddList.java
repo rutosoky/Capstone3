@@ -17,6 +17,7 @@ public class AddList extends AppCompatActivity {
 
     EditText editText_name, editText_date, editText_quantity;
 
+
     private TextView textView_Date;
     private DatePickerDialog.OnDateSetListener callbackMethod;
 
@@ -29,24 +30,24 @@ public class AddList extends AppCompatActivity {
         editText_date = (EditText)findViewById(R.id.editText_date);
         editText_quantity = (EditText)findViewById(R.id.editText_quantity);
 
-
-
         this.InitializeView();
         this.InitializeListener();
-
     }
 
-    public void ButtonMethod(View view){
+    public void ButtonMethod1(View view){
 
         String name = editText_name.getText().toString();
         String date = editText_date.getText().toString();
         String quantity = editText_quantity.getText().toString();
+
+
 
         Intent intent = new Intent(this, TotalList.class);
         intent.putExtra("name", name);
         intent.putExtra("date", date);
         intent.putExtra("quantity", quantity);
         startActivity(intent);
+
 
     }
 

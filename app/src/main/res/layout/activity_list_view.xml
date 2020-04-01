@@ -9,10 +9,15 @@
         android:layout_height="200dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_marginLeft="0dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
         android:background="#2196F3"
         android:onClick="moveColdList"
-        android:text="냉장" />
+        android:text="냉장"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <Button
         android:id="@+id/button_frozen"
@@ -21,10 +26,12 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_centerInParent="true"
+        android:layout_margin="20dp"
         android:layout_marginLeft="0dp"
         android:background="#3F51B5"
         android:onClick="moveFrozenList"
-        android:text="냉동" />
+        android:text="냉동"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <Button
         android:id="@+id/button_room"
@@ -33,14 +40,18 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
         android:layout_marginLeft="0dp"
         android:background="#00BCD4"
         android:onClick="moveRoomList"
-        android:text="실온" />
+        android:text="실온"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
         android:onClick="moveTotalList"
-        android:text="모든목록보기"/>
+        android:text="모든목록보기"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 </RelativeLayout>

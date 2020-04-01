@@ -12,7 +12,8 @@
         android:layout_centerInParent="true"
         android:layout_weight="1"
         android:onClick="moveListMain"
-        android:text="목록" />
+        android:text="목록"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <Button
         android:id="@+id/button2"
@@ -21,7 +22,8 @@
         android:layout_alignParentRight="true"
         android:layout_centerInParent="true"
         android:layout_weight="1"
-        android:text="열량 체크" />
+        android:text="열량 체크"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <Button
         android:id="@+id/buttonAdd"
@@ -30,17 +32,19 @@
         android:layout_marginStart="300dp"
         android:layout_marginTop="580dp"
         android:onClick="moveAddList"
-        android:text="추가"/>
+        android:text="추가"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <Button
         android:layout_width="80dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="320dp"
         android:layout_marginTop="160dp"
         android:onClick="nextImg"
-        android:text="다음" />
+        android:text="다음"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <ImageView
         android:id="@+id/imageView2"
